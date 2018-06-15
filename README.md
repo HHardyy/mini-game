@@ -14,6 +14,6 @@
 [https://hhardyy.com/hero/hero.html](https://hhardyy.com/hero/hero.html)
 (目前支持PC端)
 
-游戏截图
+## 游戏截图
 ![开始游戏](gameImg/index.JPG)
 ![游戏结束](gameImg/game_over.JPG)
