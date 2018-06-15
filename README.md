@@ -7,7 +7,11 @@
 #game over
 金箍棒太长或者太短，悟空飞过去之后会掉下，游戏结束
 
+#项目地址
+[https://github.com/HHardyy/mini-games](https://github.com/HHardyy/mini-games)
+#演示地址
+[https://hhardyy.com/hero/hero.html](https://hhardyy.com/hero/hero.html)
 目前只能电脑玩
 游戏截图
-![开始游戏](../gameImg/index.JPG)
-![游戏结束](../gameImg/game_over.JPG)
+![开始游戏](gameImg/index.JPG)
+![游戏结束](gameImg/game_over.JPG)
