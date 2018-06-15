@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+    font-family: "微软雅黑";
+    text-align: center;
+    background: url("../img/topbg.jpg") no-repeat center;
+    color: #cdcdcd;
+    -webkit-border-radius: 0px 0px 20px 20px;
+    -moz-border-radius: 0px 0px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+}
+.contCount{
+    font-size: 12px;
+    color: #585b5f;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+    z-index: 2;
+}
+.box {
+    width: 300px;
+    height: 500px;
+    border:1px solid #000;
+    margin: 50px auto;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+
+.box .gameInfo{
+    font-family: "微软雅黑";
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    text-align: center;
+    position: absolute;
+    top: -500px;
+    left: 0;
+    z-index: 99;
+}
+.box .gameInfo .cont {
+    position: absolute;
+    top: 50%;
+    left: 36%;
+    font-size: 16px;
+}
+.box .gameInfo .over{
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    font-size: 28px;
+    color: #f47a00;
+}
+.box .gameInfo .again{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    background: #ff9831;
+    padding: 5px 10px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #000;
+    cursor: pointer;
+}
+.box .gameInfo .again:hover{
+    background: #a6a6a6;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    -ms-transition: all 0.35s;
+    -o-transition: all 0.35s;
+    transition: all 0.35s;
+    color: #fff;
+}
+.box .content{
+    height: 500px;
+    width: 600px;
+    background: url(../img/bg.jpg);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    position: relative;
+    left: 0px;
+}
+.box .leftBox,.box .rightBox,.box .rightBox1{
+    background: url("../img/hartbg.jpg");
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-border-radius: 20px 10px 0px 0px;
+    -moz-border-radius: 20px 10px 0px 0px;
+    border-radius: 20px 10px 0px 0px;
+}
+.box .leftBox{
+     width: 40px;
+     height: 100px;
+     position: absolute;
+     bottom: 0;
+ }
+.box .rightBox{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+}
+.box .rightBox1{
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+}
+.box .hero{
+    width: 20px;
+    height: 30px;
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+}
+.box .bar{
+    width: 0px;
+    height: 2px;
+    background: url("../img/fire.jpg");
+    position: absolute;
+    left: 20px;
+    bottom: 100px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    transform-origin:0 3px;
+}
