@@ -12,7 +12,7 @@
 
 ## 演示地址
 [https://hhardyy.com/hero/hero.html](https://hhardyy.com/hero/hero.html)
-(目前支持PC端)
+(pc和移动端都可以玩)
 
 ## 游戏截图
 ![开始游戏](gameImg/index.JPG)
