@@ -11,7 +11,7 @@
 [https://github.com/HHardyy/mini-games](https://github.com/HHardyy/mini-games)
 
 ## 演示地址
-[https://hhardyy.com/hero/hero.html](https://hhardyy.com/hero/hero.html)
+[https://hhardyy.com/hero/judge.html](https://hhardyy.com/hero/judge.html)
 (pc和移动端都可以玩)
 
 ## 游戏截图
